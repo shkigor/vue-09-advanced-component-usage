@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p></p>
+    <slot></slot>
   </div>
 </template>
 
@@ -17,5 +17,9 @@
     padding: 30px;
     margin: 30px auto;
     text-align: center;
+  }
+
+  h2 {
+    color: red;
   }
 </style>
