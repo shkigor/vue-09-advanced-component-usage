@@ -1,12 +1,13 @@
 <template>
   <div>
-    <p>A wonderful Quote!</p>
+    <p>{{ quote }}</p>
   </div>
 </template>
 
 <script>
     export default {
         name: "quote",
+        props: ['quote'],
         data: function () {
           return {
             sss: 'sss'
