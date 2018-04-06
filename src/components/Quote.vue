@@ -5,6 +5,10 @@
     </div>
     <hr>
     <div>
+      <slot name="content"></slot>
+    </div>
+    <hr>
+    <div>
       <slot></slot>
     </div>
   </div>

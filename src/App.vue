@@ -10,6 +10,8 @@
               <keep-alive>
                 <component :is="selectedComponent">
                   <p>Default Content</p>
+                  <h2 slot="title">{{ quoteTitle }}</h2>
+                  <p slot="content">A wonderful Quote</p>
                 </component>
               </keep-alive>
               <!--<app-quote>-->
