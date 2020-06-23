@@ -7,9 +7,15 @@
                 <button class="btn btn-success">Load Green Template</button>
                 <button class="btn btn-danger">Load Red Template</button>
                 <hr>
-                <app-blue></app-blue>
-                <app-green></app-green>
-                <app-red></app-red>
+                <app-blue>
+                    <p>This is the Content</p>
+                </app-blue>
+                <app-green>
+                    <p>This is the Content</p>
+                </app-green>
+                <app-red>
+                    <p>This is the Content</p>
+                </app-red>
             </div>
         </div>
     </div>
